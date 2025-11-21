@@ -1,0 +1,22 @@
+{
+  "name": "iot-energy-monitor",
+  "version": "1.0.0",
+  "description": "IoT Energy Monitoring System with SQLite",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@tuya/tuya-connector-nodejs": "^2.1.2",
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
